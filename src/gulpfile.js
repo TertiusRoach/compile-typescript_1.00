@@ -14,9 +14,9 @@ const compileTypescript = (pageName) => {
 
   //--🠋 Compile all Page TypeScript files to JavaScript 🠋--//
   gulp
-    //--| Description Here |--//
+    //--| Get Source Locations |--//
     .src(`src/${fileLocations}`)
-    //--| Description Here |--//
+    //--| Pipe TypeScript specifications |--//
     .pipe(project())
     //--| Compress JavaScript |--//
     .pipe(uglify())
