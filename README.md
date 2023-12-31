@@ -15,7 +15,8 @@ The configuration file, [gulpfile.js](https://github.com/TertiusRoach/compile-ty
 
 > Gulpfile Code
 
-`const gulp = require('gulp');
+`
+const gulp = require('gulp');
 const uglify = require('gulp-uglify');
 const typescript = require('gulp-typescript');
 
@@ -39,4 +40,5 @@ gulp
 .pipe(uglify())
 //--| Copy 'src' to 'dist' |--//
 .pipe(gulp.dest([`dist/front-end/pages/${pageName}//`]));
-};`
+};
+`
