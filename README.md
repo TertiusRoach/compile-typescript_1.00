@@ -16,9 +16,9 @@ The configuration file, [gulpfile.js](https://github.com/TertiusRoach/compile-ty
 > Gulpfile Code
 
 `
-const gulp = require('gulp');
-const uglify = require('gulp-uglify');
-const typescript = require('gulp-typescript');
+    const gulp = require('gulp');
+    const uglify = require('gulp-uglify');
+    const typescript = require('gulp-typescript');
 
     gulp.task('copyIndex', async () => {
     let pageName = 'index';
