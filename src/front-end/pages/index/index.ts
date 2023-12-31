@@ -1,5 +1,7 @@
+import { GetSection } from 'utilities/GetSection';
+
 export namespace Index {
-  // new GetDesign.forPage('default-body'); //
-  // new GetDesign.forPage('login-body');
-  console.log('--index.js Loaded');
+  console.log(`🠊 ${'index'}.js Loaded 🠈`);
+
+  new GetSection.forSection('🠊 GetSection.js Loaded 🠈');
 }
