@@ -1,4 +1,4 @@
-### Tutorial References
+# Compile TypeScript
 
 To make use of the command terminals provided below, it's essential to have [Node.js](https://nodejs.org/en) installed on your system. The compiling process for [TypeScript](https://en.wikipedia.org/wiki/TypeScript) is streamlined using [Gulp Tasks](https://marketplace.visualstudio.com/items?itemName=nickdodd79.gulptasks) within [Visual Studio Code](https://code.visualstudio.com/).
 
